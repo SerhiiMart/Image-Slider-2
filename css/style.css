@@ -3,6 +3,7 @@
    margin: 0;
    box-sizing: border-box;
    overflow: hidden;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  .banner1 {
@@ -13,9 +14,35 @@
    top: 0;
  }
  img {
-   width: 7.5rem;
+   width: 100%;
    position: absolute;
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%);
  }
+
+ .text-box {
+   position: absolute;
+   width: 600px;
+   top: 200px;
+   left: 200px;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+ }
+ .text-box h1 {
+   margin-bottom: 40px;
+ }
+
+ .text-box p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 80px;
+}
+
+.text-box span {
+  background: red;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
