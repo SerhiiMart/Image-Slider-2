@@ -48,36 +48,190 @@
 }
 
 .banner1  {
-  animation: slide1 12s linear infinite;
+  animation: slide1 27s linear infinite;
 }
 .banner2  {
-  animation: slide2 12s linear infinite;
-}
-.banner2  {
-  animation: slide3 12s linear infinite;
+  animation: slide2 27s linear infinite;
 }
 .banner3  {
-  animation: slide4 12s linear infinite;
+  animation: slide3 27s linear infinite;
 }
 .banner4  {
-  animation: slide5 12s linear infinite;
+  animation: slide4 27s linear infinite;
 }
 .banner5  {
-  animation: slide6 12s linear infinite;
+  animation: slide5 27s linear infinite;
 }
 .banner6  {
-  animation: slide7 12s linear infinite;
+  animation: slide6 27s linear infinite;
 }
 .banner7  {
-  animation: slide8 12s linear infinite;
+  animation: slide7 27s linear infinite;
 }
 .banner8  {
-  animation: slide9 12s linear infinite;
+  animation: slide8 27s linear infinite;
 }
 .banner9  {
-  animation: slide1 12s linear infinite;
+  animation: slide9 27s linear infinite;
 }
 
 @keyframes slide1 {
-  
+  0% {
+    visibility: visible;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
+
+@keyframes slide2 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes slide3 {
+   0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes slide4 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: visible;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes slide5 {
+  0% {
+   visibility: visible;
+ }
+ 25% {
+   visibility: hidden;
+ }
+ 50% {
+   visibility: hidden;
+ }
+ 75% {
+   visibility: hidden;
+ }
+ 100% {
+   visibility: visible;
+ }
+}
+
+@keyframes slide6 {
+  0% {
+   visibility: visible;
+ }
+ 25% {
+   visibility: hidden;
+ }
+ 50% {
+   visibility: hidden;
+ }
+ 75% {
+   visibility: hidden;
+ }
+ 100% {
+   visibility: visible;
+ }
+}
+
+@keyframes slide7 {
+ 0% {
+   visibility: hidden;
+ }
+ 25% {
+   visibility: hidden;
+ }
+ 50% {
+   visibility: visible;
+ }
+ 75% {
+   visibility: hidden;
+ }
+ 100% {
+   visibility: hidden;
+ }
+}
+
+@keyframes slide8 {
+  0% {
+   visibility: hidden;
+ }
+ 25% {
+   visibility: hidden;
+ }
+ 50% {
+   visibility: hidden;
+ }
+ 75% {
+   visibility: hidden;
+ }
+ 100% {
+   visibility: visible;
+ }
+}
+
+@keyframes slide9 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+ }
