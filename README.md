@@ -1,2 +1,2 @@
 ## Image-Slider-2
-## Image-Slider made without using JS
+## Image-Slider made with using @keyframes and without JS.
