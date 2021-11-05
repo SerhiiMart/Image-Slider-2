@@ -3,5 +3,5 @@
 * Project kinda finished.
 
 
-
+### P.S. Making animations with JavaScript is much easier.
 
